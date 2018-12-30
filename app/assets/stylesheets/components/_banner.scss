@@ -17,21 +17,39 @@
   font-weight: bolder;
   letter-spacing: -3px;
   margin-top: 20%;
+  font-family: 'Andika', sans-serif;
  }
 
  .banner h3 {
   font-size: 30px;
   font-weight: lighter;
   letter-spacing: -1px;
+  font-family: 'Wire One', sans-serif;
  }
 
  .home-button {
   color: white;
   font-size: 30px;
-  font-family: "Lato";
+  font-family: 'Just Another Hand', cursive;
   background-color: #3C5B83;
   border: 1px #3C5B83;
   border-radius: 10px;
   width: 15%;
   margin: 2% 42.5%;
  }
+
+ @media screen and (max-width: 736px) {
+
+    /* Button */
+
+      input[type="button"],
+      input[type="submit"],
+      input[type="reset"],
+      button,
+      .home-button {
+        text-align: center;
+        font-size: 1.2em;
+        width: 25%;
+        padding: 1em 0 1em 0;
+      }
+    }
