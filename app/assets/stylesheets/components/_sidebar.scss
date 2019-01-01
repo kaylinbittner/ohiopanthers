@@ -1,9 +1,21 @@
 #sidebar {
     position: fixed;
-    width: 120px;
+    width: 20vw;
     left: 0;
     top: 0;
     bottom: 0;
     background-color: #384047;
     padding-top: 30px;
+}
+#sidebar a {
+    color: rgb(250, 250, 250);
+    font-size: 1.5em;
+    line-height: 5em;
+}
+#sidebar li {
+  list-style-type: none;
+  font-family: 'Wire One', sans-serif;
+}
+a {
+    text-decoration: none !important;
 }
